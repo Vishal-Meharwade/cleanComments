@@ -1,62 +1,36 @@
-# CleanComments
+# CleanComments 🧹
 
-Remove all comments from code files and improve comment quality across multiple programming languages.
+**CleanComments** is a Visual Studio Code extension that helps developers **clean up their code by removing all comments** and optionally **improving comment quality**. It supports multiple languages including **JavaScript, TypeScript, Python, HTML, Shell, Java, and C/C++**.
 
-## Features
+---
 
-- **Remove All Comments**: Instantly remove all comments from your code files
-- **Improve Comments**: Enhance existing comments for better readability and professionalism
-- **Multi-Language Support**: Works with JavaScript, TypeScript, Python, HTML, CSS, Java, C/C++, Shell scripts, SQL, Ruby, and PHP
+## 🚀 Features
 
-## Supported Languages
+- **Remove All Comments**: Single-line (`//`, `#`) and multi-line (`/* */`, `""" """`) comments across multiple languages.
+- **Improve Comments (Optional)**: Enhance existing comments for clarity, conciseness, and professionalism.
+- **Multi-Language Support**: Works seamlessly with JS, TS, Python, HTML, Shell, Java, and C/C++ files.
+- **Easy to Use**: Run via Command Palette or keyboard shortcut (`Ctrl+Alt+C`).
+- **Lightweight & Fast**: Optimized for minimal impact on VS Code performance.
 
-- JavaScript (.js, .jsx)
-- TypeScript (.ts, .tsx)
-- Python (.py)
-- HTML (.html, .htm, .xml)
-- CSS (.css, .scss, .sass, .less)
-- Java (.java)
-- C/C++ (.c, .cpp, .h, .hpp, .cc, .cxx)
-- Shell scripts (.sh, .bash, .zsh)
-- SQL (.sql)
-- Ruby (.rb)
-- PHP (.php)
+---
 
-## Usage
+## 🔧 Why CleanComments?
 
-### Remove Comments
-- **Command Palette**: `Ctrl+Shift+P` → "CleanComments: Remove All Comments"
-- **Keyboard Shortcut**: `Ctrl+Alt+C` (Windows/Linux) or `Cmd+Alt+C` (Mac)
-- **Context Menu**: Right-click in editor → "Remove All Comments"
+Comments are crucial for code readability, but during refactoring or cleanup, you might want to:
 
-### Improve Comments
-- **Command Palette**: `Ctrl+Shift+P` → "CleanComments: Improve Comments"
-- **Context Menu**: Right-click in editor → "Improve Comments"
+- Remove outdated or excessive comments.
+- Standardize comment formatting across different languages.
+- Improve unclear or messy comments.
 
-## Installation
+**CleanComments** solves these problems with one click.
 
-1. Open VS Code
-2. Go to Extensions (`Ctrl+Shift+X`)
-3. Search for "CleanComments"
-4. Click Install
+---
 
-## Requirements
+## 💡 Installation
 
-- VS Code version 1.74.0 or higher
+1. Open **VS Code**.
+2. Go to **Extensions** → Search for `CleanComments` → Install.
+3. Or, install manually from the `.vsix` file if you have built it locally:
 
-## Release Notes
-
-### 1.0.0
-
-Initial release of CleanComments:
-- Remove comments from multiple programming languages
-- Improve comment quality and formatting
-- Keyboard shortcuts and context menu integration
-
-## Contributing
-
-Found a bug or want to request a feature? Please open an issue on our GitHub repository.
-
-## License
-
-This extension is licensed under the MIT License.
+```bash
+code --install-extension cleancomments-0.0.1.vsix
